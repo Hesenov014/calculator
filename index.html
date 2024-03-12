@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="umumi">
+        <div id="display"></div>
+        <div class="click">
+            <div>
+                <button onclick="calc('MC')" class="btn1">MC</button>  
+                <button onclick="calc('MR')" class="btn1">MR</button>  
+                <button onclick="calc('M+')" class="btn1">M+</button>
+                <button onclick="calc('M-')" class="btn1">M-</button> 
+                <button onclick="cleardisplay()" class="btn2">C</button>        
+            </div>
+            <div>
+                <button onclick="calc('7')">7</button> 
+                <button onclick="calc('8')">8</button> 
+                <button onclick="calc('9')">9</button> 
+                <button onclick="calc('/')" class="btn1">/</button> 
+                <button onclick="backspace()" class="btn2">AC</button> 
+            </div>
+            <div>
+                <button onclick="calc('4')">4</button> 
+                <button onclick="calc('5')">5</button> 
+                <button onclick="calc('6')">6</button> 
+                <button onclick="calc('*')" class="btn1">x</button> 
+                <button onclick="calc('%')" class="btn1">%</button> 
+            </div>
+            <div>
+                <button onclick="calc('1')">1</button> 
+                <button onclick="calc('2')">2</button> 
+                <button onclick="calc('3')">3</button> 
+                <button onclick="calc('-')" class="btn1">-</button> 
+                <button onclick="calc('1/x')" class="btn1">1/x</button> 
+            </div>
+            <div>
+                <button onclick="calc('0')">0</button> 
+                <button onclick="calc('.')">.</button> 
+                <button onclick="calc('+/-')">+/-</button> 
+                <button onclick="calc('+')" class="btn1">+</button> 
+                <button onclick="hesabla()" class="btn1">=</button> 
+            </div>
+            <div>
+                <button  class="btn"></button> 
+            </div>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+
+</html>
